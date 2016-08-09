@@ -1,0 +1,39 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0px;
+}
+
+html, body, .container-fluid {
+	height: 100%;
+	font-weight: 300;
+}
+
+.full-height-section {
+    height: 100%;
+    min-height: 840px;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.row::before, .row::after {
+	content: " ";
+    display: table;
+}
+
+.inner-full-height-section {
+    height: 100%;
+}
+
+@media (min-width: 992px)
+.col-md-12 {
+    width: 100%;
+}
+
+#IntroContainer {
+    background-image: url('http://images.rbxcdn.com/dcbdfaf1c08058e71f65c09f7b98ff04.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
